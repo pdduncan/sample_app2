@@ -9,4 +9,8 @@ class StaticPagesController < ApplicationController
   def about
     puts "Controlling the about page"
   end
+
+  def contact
+    puts "Controlling the contact page"
+  end
 end
